@@ -1,0 +1,75 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#292621; color:#969686; font:10px/14px Tahoma, Geneva, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#659311; text-decoration:underline;}
+p a:hover{ color:#FFF; text-decoration:none;}
+
+.headline{font:12px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#FFF; font-weight:bold; text-transform:uppercase}
+.headline2{font:10px/14px Tahoma, Geneva, sans-serif; color:#fff;}
+
+#container{width:775px; position:relative; margin:0 auto;}
+
+/* HEADER */
+
+#header{width:775px; height:341px; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+#header img#logo{position:absolute; top:18px; left:452px}
+
+#header ul.menu{position:absolute; top:104px; left:527px; width:180px}
+#header ul.menu li{height:39px; margin-bottom:2px; clear:both}
+#header ul.menu li a{height:39px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{height:39px;}
+
+#header ul.menu li.btn_1 a{width:151px; background:url(../images/btn_1.jpg) 0 0 no-repeat; }
+#header ul.menu li.btn_1 a:hover{width:151px; background:url(../images/btn_1_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.btn_2 a{width:146px; background:url(../images/btn_2.jpg) 0 0 no-repeat; }
+#header ul.menu li.btn_2 a:hover{width:146px; background:url(../images/btn_2_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.btn_3 a{width:123px; background:url(../images/btn_3.jpg) 0 0 no-repeat; }
+#header ul.menu li.btn_3 a:hover{width:123px; background:url(../images/btn_3_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.btn_4 a{width:160px; background:url(../images/btn_4.jpg) 0 0 no-repeat; }
+#header ul.menu li.btn_4 a:hover{width:160px; background:url(../images/btn_4_over.jpg) 0 0 no-repeat;}
+
+#header ul.menu li.btn_5{margin-right:0}
+#header ul.menu li.btn_5 a{width:140px; background:url(../images/btn_5.jpg) 0 0 no-repeat; }
+#header ul.menu li.btn_5 a:hover{width:140px; background:url(../images/btn_5_over.jpg) 0 0 no-repeat;}
+
+/* CONTENT */
+
+#content{width:775px; position:relative; clear:both; margin: 0 auto}
+
+#leftPan{width:325px; float:left; margin:29px 40px 0 73px; display:inline}
+#rightPan{width:275px; float:left; margin:29px 0 0 0;}
+
+#welcome{margin-bottom:24px}
+#welcome h2{height:21px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:3px}
+#welcome p.headline{margin-left:5px; margin-bottom:10px}
+#welcome img{float:left; margin-right:10px;}
+#welcome p#welText{float:left; width:246px; padding-top:3px}
+
+#about h2{height:21px; position:relative; background:url(../images/h_about.gif) 0 0 no-repeat; margin-bottom:9px}
+#about img{float:left; margin-right:10px; margin-left:3px; display:inline}
+#about p{float:left; width:246px; padding-top:3px}
+
+#new{margin-bottom:20px}
+#new h2{height:21px; position:relative; background:url(../images/h_new.gif) 0 0 no-repeat; margin-bottom:9px}
+#new img{float:left; margin-right:10px; margin-left:3px; display:inline}
+#new p#newText{float:left; width:195px; padding-top:3px}
+#new .clear{height:13px}
+
+#news h2{height:21px; position:relative; background:url(../images/h_news.gif) 0 0 no-repeat; margin-bottom:13px}
+#news p{margin-bottom:10px; margin-left:3px}
+
+.clear#end{height:15px}
+
+/* FOOTER */
+
+#footer{width:775px; height:54px; clear:both; background:#000 }
+#footer p{padding: 12px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#969686;}
+#footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#969686; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#fff}
